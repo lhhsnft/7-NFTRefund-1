@@ -5,9 +5,6 @@
 }
 
 
-.container strong{
-    color:aqua;
-}
 
 .logo{
     height: 13px;
@@ -34,6 +31,7 @@
     text-align:center;
 }
 
+
 .details{
     margin: 0 20%;
     /* border: 1px solid red; */
@@ -46,4 +44,43 @@
 
 .point{
     color: #053E0A;
+}
+
+.gallery{
+    border-radius: 10px;
+    padding: 0.5rem;
+    text-align:center;
+}
+
+.galleryBack{
+    border-radius: 10px;
+    padding: 0.5rem;
+    text-align:center;
+    background-image: url('/images/gallery.jpg');
+    background-size:contain ;
+}
+
+
+.member{
+    border-radius: 10px;
+    padding: 0.5rem;
+    text-align:center;
+}
+
+.member p a{
+    color:#0072FF;
+}
+
+.member p span{
+    color:red;
+}
+
+.line{
+    border-top:1px dashed #CCC
+}
+
+.footer{
+    text-align: center;
+    border-top: 1px solid  #D1D1D1;
+    margin-bottom: 0.5rem;
 }

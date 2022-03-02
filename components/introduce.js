@@ -46,9 +46,14 @@ function Introduce(){
             </Head>
             <MenuWrapper>
                 <MenuItem elementId='introduce'> <img src="/logo/protect.png" alt="KissYou" className={instyle.logo} />Introduce</MenuItem>
-                <MenuItem elementId='roadmap'> <img src="/logo/protection.png" alt="KissYou" className={instyle.logo} />Roadmap</MenuItem>
+                <MenuItem elementId='gallery'> <img src="/logo/protection.png" alt="KissYou" className={instyle.logo} /> Gallery</MenuItem>
                 <MenuItem elementId='member'> <img src="/logo/rainbow.png" alt="KissYou" className={instyle.logo} /> Member</MenuItem>
-                <MenuItem elementId='honest'> <img src="/logo/stalker.png" alt="KissYou" className={instyle.logo} /> Honest</MenuItem>
+                <Link href='/'>
+                    <MenuItemText style={{padding: "10px 20px"}}>
+                        <img src="/logo/stalker.png" alt="KissYou" className={instyle.logo}/>
+                        Go Home
+                    </MenuItemText>
+                </Link>
             </MenuWrapper>
         </div>
         <div className={instyle.introcontent} >

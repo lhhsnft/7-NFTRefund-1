@@ -1,9 +1,9 @@
 import Head from "next/head"
 import Introduce from "../components/introduce"
-import RoadMap from "../components/roadmap"
 import Member from "../components/member"
-import Honest from "../components/honest"
 import Link from "next/link"
+import Gallery from "../components/gallery"
+import instyle from '../styles/introduce.module.css'
 
 export default function Note(){
     return (
@@ -12,10 +12,11 @@ export default function Note(){
             <title>信息主页</title>
         </Head>
         <Introduce />
-        <RoadMap />
+        <Gallery />
         <Member />
-        <Honest />
-        <Link href='/'>返回主页</Link>
+        <footer className={instyle.footer}>
+            Powered by Family {` `} <img src="/kiss.png" alt="KissYou" height={15} /> 
+        </footer>
         </>
     )
 }
