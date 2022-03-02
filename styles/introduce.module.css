@@ -1,0 +1,9 @@
+.container{
+    background: linear-gradient(to bottom, #CBF5DE,#FFFFFF);
+    margin: 0;
+    padding: 0.3rem 1rem;
+}
+
+.logo{
+    height: 13px;
+}
