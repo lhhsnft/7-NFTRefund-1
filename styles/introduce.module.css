@@ -1,9 +1,49 @@
 .container{
-    background: linear-gradient(to bottom, #CBF5DE,#FFFFFF);
+    background: linear-gradient(to bottom, #A7A7A7,#FFFFFF);
     margin: 0;
     padding: 0.3rem 1rem;
 }
 
+
+.container strong{
+    color:aqua;
+}
+
 .logo{
     height: 13px;
+}
+
+.content{
+    margin: 1rem 0;
+    border: 1px solid black;
+    padding: 0.1rem ;
+}
+
+.introcontent{
+    margin: 1rem 0;
+    /* border: 1px solid black; */
+    padding: 0.1rem ;
+}
+
+.introduce{
+    border-radius: 10px;
+    padding: 0.5rem;
+    background-image: url('/images/snowtree.jpg');
+    background-repeat: no-repeat;
+    background-size:cover ;
+    text-align:center;
+}
+
+.details{
+    margin: 0 20%;
+    /* border: 1px solid red; */
+    list-style-type: "\1F44D";
+}
+
+.strong{
+    color:#FF0800;
+}
+
+.point{
+    color: #053E0A;
 }
