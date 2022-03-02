@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Head from "next/head"
 import Layout from "../components/layout"
-import Refund from "../components/refund"
+import Refund from "../components/Refund"
 import instyle from '../styles/introduce.module.css'
 
 
