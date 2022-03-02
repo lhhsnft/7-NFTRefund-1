@@ -64,6 +64,8 @@ function Introduce(){
 
                         <p> 🐱‍💻 {' '} 总共1024个 每个售价0.01ETH</p>
 
+                        <p> 🐱‍🚀 {' '} 每个钱包最多Mint2个</p>
+
                         <p> 🐱‍👓 {' '} 每个NFT在mint出来后的7天内无理由退款</p>
 
 
@@ -78,6 +80,8 @@ function Introduce(){
                         <p> 🐱‍👤 {' '} 不会rug 本人第一个项目 会一直更新 一直做下去的 Never say Never</p>
 
                         <p> 🐱‍💻 {' '} Number is 1024 Every sold at 0.01ETH</p>
+
+                        <p> 🐱‍🚀 {' '} Max Mint 2 Every Wallet</p>
 
                         <p> 🐱‍👓 {' '} Every NFT minted could refund within 7 days with noreason.</p>
 
