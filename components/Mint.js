@@ -236,8 +236,7 @@ function MintSection() {
         </div>
         {mintButton}
         <div style={{ marginTop: 20, fontSize: 20, textAlign: "center" }}>
-          铸造进度：{progress === null ? "请先连接钱包✔" : progress} / 1024 价格
-          0.01 ETH 一个 每个钱包最多 2 个
+          铸造进度：{progress === null ? "请先连接钱包✔" : progress} / 1024 
         </div>
       </div>
     );
@@ -250,21 +249,13 @@ function Mint() {
           <div
             style={{
               marginTop: 60,
-              border: "4px dashed #000",
+              border: "4px dashed #6C0404",
               padding: "40px",
               borderRadius: 20,
             }}
           >
             <MintSection />
           </div>
-          <Typography
-            style={{ textAlign: "center", marginTop: "8%" }}
-            variant="h5"
-            gutterBottom
-            component="div"
-          >
-            铸造之后 由衷建议试试退款的功能😊
-          </Typography>
         </Content>
       </div>
     );

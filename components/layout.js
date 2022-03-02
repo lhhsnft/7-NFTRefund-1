@@ -54,6 +54,7 @@ export default function Layout({children,home,img,name,href,icon}){
                                 <a target='_blank' className={utilStyles.colorInherit}>{name}</a>
                             </Link>
                         </h2>
+                        <p>🐱‍👓 欢迎来到这里 如果没有看过信息版面的人 麻烦先去看看哦 🤓</p>
                     </>
                 )}
             </header>
